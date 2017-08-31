@@ -16,7 +16,7 @@ Steps:
   Our result type is classification, and particularly binary classification -> algorithm must support that<br>
   Eliminate "ensemble" algorithm as this is initial training<br>
   Choose basic, not enhanced, as this is a basic exercise..<br>
-  --> let's select Naive Bayes as it's simple to understand, it's fast and it's stable<br>
+    --> let's select Naive Bayes as it's simple to understand, it's fast and it's stable<br>
   
 3) Train the Model<br>
   Split data set to 70% training set and 30% testing set<br>
@@ -25,7 +25,7 @@ Steps:
   post-split data preparation:<br>
     hidden missing values? missing data is common problem, false zeroes cause bias<br>
     replace with mean/median, replace with expert knowledge derived value<br>
- And train!<br>
+  And train!<br>
   
 4) Test model's accuracy<br>
     Improve performance:<br>
