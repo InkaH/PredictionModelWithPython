@@ -28,5 +28,16 @@ Steps:
  And train!
   
 4) Test model's accuracy
+    Improve performance:
+      adjust current algorithm
+      get more data or improve data
+      improve training by preventing overfitting by using regularization hyperparameter and cross validation
+      switch algorithm?
+      -> split data into training, test and validation data? not enough data usually for this
+      -> K-Fold Cross Validation
+        for each fold, determine best hyperparameter value
+        next. set model hyperparameter value to average best
+        = Use Algorithm CV variants (algorithm + cross validation libraries)
+        
   
     
